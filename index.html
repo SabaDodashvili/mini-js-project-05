@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag & Drop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__row">
+        <div class="container__col-header container__col-header_start">Start</div>
+        <div class="container__col-header container__col-header_progress">In process</div>
+        <div class="container__col-header container__col-header_done">Done</div>
+      </div>
+      <div class="container__row">
+        <div class="container__placeholder placeholder">
+          <div class="placeholder__item" draggable="true">Drag me</div>
+        </div>
+        <div class="container__placeholder placeholder"></div>
+        <div class="container__placeholder placeholder"></div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
